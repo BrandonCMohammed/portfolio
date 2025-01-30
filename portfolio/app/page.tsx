@@ -1,11 +1,15 @@
+import Intro from "./components/intro";
+import Projects from "./components/projects";
+import Skills from "./components/skills";
+
 export default function Home() {
   return (
-    <div className="">
-      <div id="intro_about_me">Intro</div>
+    <section id="body" className="flex flex-col justify-center items-center p-6">
+      <Intro/>
 
-      <div id="projects">Projects</div>
+      <Projects/>
 
-      <div id="skills">Skills</div>
-    </div>
+      <Skills/>
+    </section>
   );
 }
