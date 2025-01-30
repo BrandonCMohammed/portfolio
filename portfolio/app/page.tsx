@@ -1,22 +1,11 @@
 export default function Home() {
   return (
-  
-  
-  <div className="">
+    <div className="">
+      <div id="intro_about_me">Intro</div>
 
-      <div id="intro about me">
-        Intro
-      </div>
+      <div id="projects">Projects</div>
 
-      <div id="projects">
-        Projects
-
-      </div>
-
-      <div id="skills">
-        Skills
-      </div>
-      
-
-  </div>);
+      <div id="skills">Skills</div>
+    </div>
+  );
 }
