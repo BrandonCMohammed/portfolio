@@ -4,12 +4,13 @@ import Skills from "./components/skills";
 
 export default function Home() {
   return (
-    <section id="body" className="flex flex-col justify-center items-center p-6">
+    <section id="body" className="flex flex-col justify-center items-center ">
       <Intro/>
-
+      
+      <Skills/>
+      
       <Projects/>
 
-      <Skills/>
     </section>
   );
 }
