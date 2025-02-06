@@ -20,7 +20,7 @@ export default function Header() {
           <div className="flex flex-col md:flex-row justify-around items-center w-full  mt-10 px-2">
             <div>
               <Link href="#intro_about_me" className="rounded-full  text-3xl px-4 py-2">
-                Intro
+                Introduction
               </Link>
             </div>
             <div>
