@@ -8,8 +8,8 @@ export default function Intro() {
                 </div>
                 <div className="flex flex-col border rounded-xl p-5">
 
-                    <div className="flex flex-row -mb-2">
-                        <div className="w-[55.8rem] flex justify-center items-center px-5 border border-indigo-500 bg-slate-800 text-3xl rounded-xl">
+                    <div className="flex flex-row -mb-2  ">
+                        <div className="w-[55.8rem] flex justify-center items-center px-5 border border-indigo-500 bg-slate-800 text-3xl rounded-xl ">
                             Software developer based in Trinidad and Tobago
                         </div>
                         <div className="w-1/2 h-80"></div>
