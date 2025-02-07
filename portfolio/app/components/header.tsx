@@ -32,7 +32,7 @@ export default function Header() {
 
                     <hr className="w-[55rem] h-1 mx-auto my-4 bg-gray-100 border-0 rounded-sm md:my-10 dark:bg-gray-700" />
 
-                    <div className={`transition-opacity duration-[7s] ${visible ? 'opacity-100' : 'opacity-0'}`}>
+                    <div className={`transition-opacity duration-[5s] ${visible ? 'opacity-100' : 'opacity-0'}`}>
                         <div className={`transform transition-transform duration-[4s] ${visible ? 'translate-y-0' : 'translate-y-10'}`}>
                             <div className="flex flex-col md:flex-row justify-around items-center w-full  mt-10 px-2">
                                 <div >
