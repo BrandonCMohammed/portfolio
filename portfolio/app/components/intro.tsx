@@ -26,7 +26,7 @@ export default function Intro() {
     }, [])
     return (
 
-        <section ref={elementRef} id="intro_about_me" className=" flex flex-col text-gray-300 p-10 w-full bg-neutral-800">
+        <section ref={elementRef} id="intro_about_me" className=" flex flex-col flex-row text-gray-300 p-10 w-full bg-neutral-800">
 
             <div className={`transform transition-transform duration-[3s] ease-in-out w-full ${isVisible ? 'translate-x-0' : '-translate-x-[5rem]'}`}>
                 <div className={`transition-opacity duration-[2s] ease-in ${isVisible ? 'opacity-100' : 'opacity-0'}`}>

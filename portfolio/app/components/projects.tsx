@@ -30,18 +30,21 @@ export default function Projects() {
 
     return (
         <>
-            <section ref={elementRef} id="projects" className="p-10 bg-neutral-800 flex flex-col justify-center items-center w-full">
-
+            <div className="bg-neutral-800 w-full">
                 <div className={`transform transition-transform duration-[3s] ease-in-out w-full ${isVisible ? 'translate-x-0' : '-translate-x-[10rem]'}`}>
                     <div className={`transition-opacity duration-[2s] ease-in ${isVisible ? 'opacity-100' : 'opacity-0'}`}>
-                        <p className="text-5xl ">My Projects</p>
-                        <div className="w-full flex flex-row justify-between">
-                            <ProjectCard />
-                            {/* <ProjectCard />
-                            <ProjectCard /> */}
-                        </div>
 
-                    {/* <div className="w-full flex flex-row justify-evenly">
+                        <section ref={elementRef} id="projects" className="p-10 flex flex-col justify-center items-center ">
+
+
+                            <p className="text-5xl ">My Projects</p>
+                            <div className="w-full flex flex-row justify-between">
+                                <ProjectCard />
+                                {/* <ProjectCard />
+                            <ProjectCard /> */}
+                            </div>
+
+                            {/* <div className="w-full flex flex-row justify-evenly">
                         <ProjectCard />
                         <ProjectCard />
                         </div>
@@ -54,13 +57,15 @@ export default function Projects() {
                             <ProjectCard />
                             <ProjectCard />
                         </div> */}
+                        </section >
                     </div>
                 </div>
+            </div>
 
 
 
 
-            </section>
+
         </>
     );
 }

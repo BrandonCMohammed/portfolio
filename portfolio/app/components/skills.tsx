@@ -38,7 +38,7 @@ export default function Skills() {
                                 <p className="text-5xl mb-5">Skills</p>
                             </div>
 
-                            <div className="flex flex-wrap justify-center items-center px-[30rem]">
+                            <div className="flex flex-wrap justify-center items-center w-full">
 
                                 <span className="bg-gray-100 text-gray-800 text-md font-medium me-2 mb-2 px-2.5 py-0.5 rounded-md dark:bg-gray-700 dark:text-gray-300">UI/UX DESIGN</span>
                                 <span className="bg-gray-100 text-gray-800 text-md font-medium me-2 mb-2 px-2.5 py-0.5 rounded-md dark:bg-gray-700 dark:text-gray-300">JAVASCRIPT</span>
