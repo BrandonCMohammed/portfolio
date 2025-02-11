@@ -29,8 +29,8 @@ export default function Footer() {
         <>
             <div ref={elementRef} className={`transform transition-transform duration-[3s] ease-in-out w-full ${isVisible ? 'translate-y-0' : 'translate-y-[5rem]'}`}>
                 <div className={`transition-opacity duration-[2s] ease-in ${isVisible ? 'opacity-100' : 'opacity-0'}`}>
-                    <div className="flex justify-center items-center h-40">
-                        <div className="w-1/2">
+                    <div className="flex flex-col md:flex-row justify-center items-center h-min pt-10">
+                        <div className="w-1/2 pb-5">
                             <p className="flex justify-center items-center text-5xl pb-5">
                                 Contact Me
                             </p>
@@ -42,10 +42,10 @@ export default function Footer() {
 
                         <div className="w-1/2">
                             <p className="flex justify-center items-center pb-5">
-                                © 2025 Brandon Mohammed. All rights reserved.
+                                About this website: Built with Next.JS and Tailwind CSS and hosted with Vercel hosting.
                             </p>
                             <p className="flex justify-center items-center pb-5">
-                                About this website: Built with Next.JS and Tailwind CSS and hosted with Vercel hosting.
+                                © 2025 Brandon Mohammed. All rights reserved.
                             </p>
                         </div>
                     </div>
