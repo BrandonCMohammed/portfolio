@@ -12,7 +12,7 @@ export default function Projects() {
     const projectsRef = useRef(null)
 
     useEffect(() => {
-        const observer = new IntersectionObserver(([entry], observer) => {
+        const observer = new IntersectionObserver(([entry]) => {
             if (entry.isIntersecting) {
                 setIsVisible(true)
                 setIsProjectsVisible(true)

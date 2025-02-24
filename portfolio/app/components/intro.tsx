@@ -15,7 +15,7 @@ export default function Intro() {
 
     useEffect(() => {
 
-        const observer = new IntersectionObserver(([entry], observer) => {
+        const observer = new IntersectionObserver(([entry]) => {
             if (entry.isIntersecting) {
                 setIscontainerVisible(true)
                 setisExperienceVisible(true)

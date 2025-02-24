@@ -11,7 +11,7 @@ export default function Skills() {
 
     useEffect(() => {
 
-        const observer = new IntersectionObserver(([entry], observer) => {
+        const observer = new IntersectionObserver(([entry]) => {
             if (entry.isIntersecting) {
                 setIsVisible(true)
                 setIsSkillsVisible(true)
